@@ -1,0 +1,22 @@
+{
+    "name": "shadesoft/zipper",
+    "description": "Makes a zip archive from the content of a directory.",
+    "keywords": ["php", "zip"],
+    "type": "package",
+    "license": "MIT",
+    "homepage": "https://github.com/ShadeSoft/Zipper",
+    "authors": [
+        {
+            "name": "Szabolcs Surányi",
+            "email": "szabolcs.suranyi@shadesoft.hu",
+            "homepage": "http://shadesoft.hu"
+        }
+    ],
+    "autoload": {
+        "psr-4": { "ShadeSoft\\Zipper\\": "" }
+    },
+    "require": {
+        "php": ">=5.3",
+        "ext-zip": "*"
+    }
+}
